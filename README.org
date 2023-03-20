@@ -1,0 +1,19 @@
+#+TITLE: ICS to XML
+
+This script converts an ICS calendar document (pulled from google calendar, etc) to a =well-formatted= XML document.
+
+* Dependencies
+
+- Bash
+- Sed
+- Awk
+
+Tested only with GNU versions.
+
+* Improvements
+
+Some data from the ICS side, namely apple location information, is combined into a single attribute on the XML side. 
+
+* License
+
+MIT
